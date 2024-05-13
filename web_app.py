@@ -8,7 +8,8 @@ import pandas as pd
 model = joblib.load("../artifacts/model.pkl")
 
 # Initialize the Dash app
-app = dash.Dash(__name__, external_stylesheets=['../../style.css'])
+app = dash.Dash(__name__)
+server = app.server
 
 # Define the layout of the app
 app.layout = html.Div([
