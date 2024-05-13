@@ -1,0 +1,4 @@
+dash
+joblib
+pandas
+gunicorn
