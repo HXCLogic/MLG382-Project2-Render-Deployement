@@ -2,3 +2,5 @@ dash
 joblib
 pandas
 gunicorn
+scikit-learn
+category_encoders
