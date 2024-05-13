@@ -5,7 +5,7 @@ import joblib
 import pandas as pd
 
 # Load the trained model
-model = joblib.load("../artifacts/model.pkl")
+model = joblib.load("./model.pkl")
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
